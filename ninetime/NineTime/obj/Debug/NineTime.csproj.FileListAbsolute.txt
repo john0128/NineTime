@@ -1,0 +1,10 @@
+X:\ninetime\NineTime\bin\Debug\NineTime.exe.config
+X:\ninetime\NineTime\bin\Debug\NineTime.exe
+X:\ninetime\NineTime\bin\Debug\NineTime.pdb
+X:\ninetime\NineTime\obj\Debug\NineTime.csproj.AssemblyReference.cache
+X:\ninetime\NineTime\obj\Debug\NineTime.Form1.resources
+X:\ninetime\NineTime\obj\Debug\NineTime.Properties.Resources.resources
+X:\ninetime\NineTime\obj\Debug\NineTime.csproj.GenerateResource.cache
+X:\ninetime\NineTime\obj\Debug\NineTime.csproj.CoreCompileInputs.cache
+X:\ninetime\NineTime\obj\Debug\NineTime.exe
+X:\ninetime\NineTime\obj\Debug\NineTime.pdb
