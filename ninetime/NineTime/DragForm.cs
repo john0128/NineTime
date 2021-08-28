@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace NineTime
 {
-    class DragForm
+    class DragForm : Component
     {
         private Control handleControl;
 
