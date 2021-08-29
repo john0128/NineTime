@@ -1,0 +1,17 @@
+X:\나인타임\ninetime\NineTime\bin\Release\NineTime.exe.config
+X:\나인타임\ninetime\NineTime\bin\Release\NineTime.exe
+X:\나인타임\ninetime\NineTime\bin\Release\NineTime.pdb
+X:\나인타임\ninetime\NineTime\bin\Release\Interop.WMPLib.dll
+X:\나인타임\ninetime\NineTime\bin\Release\AxInterop.WMPLib.dll
+X:\나인타임\ninetime\NineTime\obj\Release\NineTime.csproj.AssemblyReference.cache
+X:\나인타임\ninetime\NineTime\obj\Release\Interop.WMPLib.dll
+X:\나인타임\ninetime\NineTime\obj\Release\AxInterop.WMPLib.dll
+X:\나인타임\ninetime\NineTime\obj\Release\NineTime.csproj.ResolveComReference.cache
+X:\나인타임\ninetime\NineTime\obj\Release\NineTime.Form1.resources
+X:\나인타임\ninetime\NineTime\obj\Release\NineTime.Form11.resources
+X:\나인타임\ninetime\NineTime\obj\Release\NineTime.NTInfo.resources
+X:\나인타임\ninetime\NineTime\obj\Release\NineTime.Properties.Resources.resources
+X:\나인타임\ninetime\NineTime\obj\Release\NineTime.csproj.GenerateResource.cache
+X:\나인타임\ninetime\NineTime\obj\Release\NineTime.csproj.CoreCompileInputs.cache
+X:\나인타임\ninetime\NineTime\obj\Release\NineTime.exe
+X:\나인타임\ninetime\NineTime\obj\Release\NineTime.pdb
