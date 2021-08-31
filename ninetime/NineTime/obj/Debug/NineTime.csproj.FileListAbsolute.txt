@@ -25,3 +25,7 @@ X:\나인타임\ninetime\NineTime\obj\Debug\AxInterop.WMPLib.dll
 X:\나인타임\ninetime\NineTime\obj\Debug\NineTime.csproj.ResolveComReference.cache
 X:\나인타임\ninetime\NineTime\obj\Debug\NineTime.Form11.resources
 X:\나인타임\ninetime\NineTime\obj\Debug\NineTime.NTInfo.resources
+X:\나인타임\ninetime\NineTime\obj\Debug\NineTime.NTchoClock.resources
+X:\나인타임\ninetime\NineTime\obj\Debug\NineTime.NTC_stopwatch.resources
+X:\나인타임\ninetime\NineTime\obj\Debug\NineTime.NTC_TIMER.resources
+X:\나인타임\ninetime\NineTime\obj\Debug\NineTime.NTC_calender.resources

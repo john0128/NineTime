@@ -58,11 +58,35 @@
     <Compile Include="Form11.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MusicSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusicSelect.Designer.cs">
+      <DependentUpon>MusicSelect.cs</DependentUpon>
+    </Compile>
     <Compile Include="NTchoClock.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NTchoClock.Designer.cs">
       <DependentUpon>NTchoClock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTC_calender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTC_calender.Designer.cs">
+      <DependentUpon>NTC_calender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTC_stopwatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTC_stopwatch.Designer.cs">
+      <DependentUpon>NTC_stopwatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NTC_TIMER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTC_TIMER.Designer.cs">
+      <DependentUpon>NTC_TIMER.cs</DependentUpon>
     </Compile>
     <Compile Include="NTInfo.cs">
       <SubType>Form</SubType>
@@ -87,6 +111,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form11.resx">
       <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusicSelect.resx">
+      <DependentUpon>MusicSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTchoClock.resx">
+      <DependentUpon>NTchoClock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTC_calender.resx">
+      <DependentUpon>NTC_calender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTC_stopwatch.resx">
+      <DependentUpon>NTC_stopwatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTC_TIMER.resx">
+      <DependentUpon>NTC_TIMER.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NTInfo.resx">
       <DependentUpon>NTInfo.cs</DependentUpon>
@@ -142,6 +181,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\asset\Img\4083783_audio_melody_music_sound_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\asset\Img\stopwatch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\asset\Img\timer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\asset\Img\calender.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

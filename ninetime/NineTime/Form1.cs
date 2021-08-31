@@ -85,5 +85,18 @@ namespace NineTime
             NTInfo NTI = new NTInfo();
             NTI.Show();
         }
+
+        private void rounded_Button2_Click(object sender, EventArgs e)
+        {
+            NTchoClock NTC = new NTchoClock();
+            NTC.Show();
+        }
+
+        private void rounded_Button3_Click(object sender, EventArgs e)
+        {
+            Player.controls.stop();
+            MusicSelect MSC = new MusicSelect();
+            MSC.Show();
+        }
     }
 }

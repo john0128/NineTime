@@ -32,12 +32,12 @@ namespace NineTime
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.rounded_Button3 = new NineTime.Rounded_Button();
             this.rounded_Button2 = new NineTime.Rounded_Button();
             this.rounded_Button1 = new NineTime.Rounded_Button();
             this.ellipseControl1 = new NineTime.EllipseControl();
-            this.button1 = new System.Windows.Forms.Button();
             this.ellipseControl2 = new NineTime.EllipseControl();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -53,6 +53,17 @@ namespace NineTime
             this.label1.Text = "....";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.Location = new System.Drawing.Point(5, 185);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(139, 26);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Refresh Clock";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -76,6 +87,7 @@ namespace NineTime
             this.rounded_Button3.TabIndex = 4;
             this.rounded_Button3.Text = " ";
             this.rounded_Button3.UseVisualStyleBackColor = true;
+            this.rounded_Button3.Click += new System.EventHandler(this.rounded_Button3_Click);
             // 
             // rounded_Button2
             // 
@@ -86,6 +98,7 @@ namespace NineTime
             this.rounded_Button2.TabIndex = 3;
             this.rounded_Button2.Text = " ";
             this.rounded_Button2.UseVisualStyleBackColor = true;
+            this.rounded_Button2.Click += new System.EventHandler(this.rounded_Button2_Click);
             // 
             // rounded_Button1
             // 
@@ -102,17 +115,6 @@ namespace NineTime
             // 
             this.ellipseControl1.CornerRadius = 30;
             this.ellipseControl1.TargetControl = this;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(5, 185);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 26);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Refresh Clock";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ellipseControl2
             // 
@@ -133,7 +135,6 @@ namespace NineTime
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
-            this.Text = "NineTime";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
